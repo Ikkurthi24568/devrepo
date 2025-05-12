@@ -1,0 +1,81 @@
+git init  <! it will initialize github in local system>
+git add filename or .  <! add your files to git local repository>
+git status <! it will show the files status traked or modified or nothing >
+git commit -m "description about chnage" <! local commit>
+git status
+git log <!-check the commit id info>
+git log --oneline  <! it will display the commit id with short number and description>
+git show <! it will show last git commit id info>
+git show commitid <!it will show commit id related info more>
+
+When you 1st time commiting the code
+It will show 
+Git config --global user.email "murali.rgvm@gmail.com"
+Git config --global user.name " Muralli"
+
+Git branch -M main <! This command we used to change the local repository name master to main>
+
+Git remote add origin https://github.com/DevopsLn/Development.git <! Here origin means refernce to git url, Development means repository name>
+
+Git remote -v <! It will display what are the repositories availabe>
+
+Git push or git push -u origin main <! It means, your local code pushing to remote repository>
+
+Note : When you are pushing the code to remote repository , It will ask you credentials .
+
+You can access remote repository through hhtps or ssh
+If it is https : user name and token 
+If it is ssh : key (pub and private)
+
+We can generate the token by login github through gui
+Go to account settings--> developments--setting--Persanl access token--tokens(classics)- generate token classisc
+---name it as windows token-- expiry-- 
+
+Save the token one it close , you may not get it.
+Either you need to regenerate or save it.
+
+Once token access done, you could push successfully. 
+
+Now you have developed the code locally and pushed to Github repository.
+
+=================================================================
+
+Same repository sharing by multiple developers.
+
+Same code needs to another resource, they need to get the code from git to their machine in linux.
+
+Create instance in GCP
+Ssh connect
+Check git installed or not by enter git
+If not 
+Sudo -I
+Cat /etc/*rele*
+apt update -y
+apt install git -y
+Git 
+Git clone https://github.com/DevopsLn/Development.git 
+Now you can do ls
+Cd project
+Ls -la
+You can see .git folder < it will be track all the your prject info and >
+
+Vim newfile
+Git add .
+Git commit -m "desc msg"
+
+Again it will ask mail id and user name details 
+
+Git config --global user.email "murali.rgvm@gmail.com"
+Git config --global user.name " Mural
+
+
+Git commit -m  "desc msg"
+
+HEAD will reference to current commit.
+
+
+
+We need push the code to remote repository 
+we need to add our local code to remote repository
+
+git 
