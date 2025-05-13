@@ -11,5 +11,7 @@ repo settings--> webhooks-->content type-->jenkins url
 payload url: http://35.222.77.18:8080/github-webhook
 content type : application-json
 
+just update
+
 
 
