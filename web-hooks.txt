@@ -1,1 +1,15 @@
 Webhooktest
+
+these steps in jenkins
+We have given the git url
+shell script cat web-hooks.txt
+selected github hook.
+
+below steps in git:
+
+repo settings--> webhooks-->content type-->jenkins url
+payload url: http://35.222.77.18:8080/github-webhook
+content type : application-json
+
+
+
